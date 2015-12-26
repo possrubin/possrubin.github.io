@@ -20,6 +20,7 @@
   
     app.controller('BlogController', function($http, $routeParams) {
         this.filename = $routeParams.filename;
+        alert(this.filename);
     });
 })();
 
