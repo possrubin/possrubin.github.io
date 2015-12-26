@@ -12,7 +12,7 @@
             <div id="main_header" ng-include="'header.html'">
             </div>
             <div id="main_content">
-                <div ng-view></div>
+                <ng-view></ng-view>
                 <div ng-controller="BoardController as board">
                     <ul>
                         <li ng-repeat="page in board.pages">
