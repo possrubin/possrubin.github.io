@@ -1,8 +1,23 @@
 (function() {
     var app = angular.module('blog', ['ngRoute']);
-    app.controller('BoardController', function($routeParams) {
+    app.config(function($routeProvider) {
+        $routeProvider.
+        when('/blog/:boardId', {
+            templateUrl: blogdesc.html,
+            controller: 'BlogController'
+        }).
+        otherwise({
+            redirectTo: '/'
+        });
+    });
+
+    app.controller('BoardController', function() {
         this.pages = boards;
-        this.route = $routeParams.first;
+    });
+  
+    app.controller('BlogController', function($routeParams) {
+        this.route = $routeParams.boardId;
+        this.page = boards[parseInt(this.route)];
     });
 
     var boards = [
