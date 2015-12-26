@@ -6,6 +6,12 @@ body {
 #main_header {
     width: auto;
     height: 50px;
-    background-color: #000000;
+    background-color: #00a8ec;
     color: #ffffff;
+}
+
+#main_footer {
+    width: auto;
+    height: 30px;
+    color: #aaaaaa;
 }
