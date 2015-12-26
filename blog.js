@@ -16,7 +16,7 @@
         $http.get('blogdata.json').success(function(blogdata) {
             $scope.pages = blogdata;
             test = "test!!";
-        }); 
+        }.bind(this)); 
     });
   
     app.controller('BlogController', function($http, $routeParams) {
