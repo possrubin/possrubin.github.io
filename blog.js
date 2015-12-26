@@ -6,7 +6,7 @@
 
     var board = {
         title : "This is First Blog!",
-        desription : "Nothing to write"
+        description : "Nothing to write"
     };
 })();
 
