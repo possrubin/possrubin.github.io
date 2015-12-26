@@ -11,11 +11,9 @@
         });
     });
 
-    app.controller('BoardController', function($scope, $http) {
-        this.test = "test1";
+    app.controller('BoardController', function($http) {
         $http.get('blogdata.json').success(function(blogdata) {
-            $scope.pages = blogdata;
-            this.test = "test!!";
+            this.pages = blogdata;
         }.bind(this)); 
     });
   
