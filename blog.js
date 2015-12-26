@@ -11,24 +11,17 @@
         });
     });
 
-    app.controller('BoardController', function() {
-        this.pages = boards;
+    app.controller('BoardController', function($http) {
+        $http.get('blogdata.json').success(function(blogdata) {
+            this.pages = blogdata;
+        } 
     });
   
-    app.controller('BlogController', function($routeParams) {
+    app.controller('BlogController', function($http, $routeParams) {
         this.route = $routeParams.boardId;
-        this.page = boards[parseInt(this.route)];
+        $http.get('blogdata.json').success(function(blogdata) {
+            this.page = blogdata[parseInt(this.route)];
+        } 
     });
-
-    var boards = [
-        {
-            title : "This is First Blog!",
-            description : "Nothing to write"
-        },
-        {
-            title : "This is Second Blog!",
-            description : "Oh Second~"
-        }
-    ];
 })();
 
