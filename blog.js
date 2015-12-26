@@ -15,7 +15,7 @@
         this.test = "test1";
         $http.get('blogdata.json').success(function(blogdata) {
             $scope.pages = blogdata;
-            test = "test!!";
+            this.test = "test!!";
         }.bind(this)); 
     });
   
