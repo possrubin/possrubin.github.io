@@ -14,14 +14,14 @@
     app.controller('BoardController', function($http) {
         $http.get('blogdata.json').success(function(blogdata) {
             this.pages = blogdata;
-        } 
+        }); 
     });
   
     app.controller('BlogController', function($http, $routeParams) {
         this.route = $routeParams.boardId;
         $http.get('blogdata.json').success(function(blogdata) {
             this.page = blogdata[parseInt(this.route)];
-        } 
+        }); 
     });
 })();
 
