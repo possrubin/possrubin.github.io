@@ -13,6 +13,7 @@
 
     app.controller('BoardController', function($http) {
         $http.get('blogdata.json').success(function(blogdata) {
+            alert(blogdata);
             this.pages = blogdata;
         }); 
     });
