@@ -3,7 +3,7 @@
     app.config(function($routeProvider) {
         $routeProvider.
         when('/blog/:boardId', {
-            templateUrl: blogdesc.html,
+            templateUrl: "blogdesc.html",
             controller: 'BlogController'
         }).
         otherwise({
