@@ -1,7 +1,8 @@
 (function() {
-    var app = angular.module('blog', []);
-    app.controller('BoardController', function() {
+    var app = angular.module('blog', ['ngRoute']);
+    app.controller('BoardController', function($routeParams) {
         this.pages = boards;
+        this.route = $routeParams.first;
     });
 
     var boards = [
