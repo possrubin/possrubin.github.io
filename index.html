@@ -5,6 +5,9 @@
         <script type="text/javascript" src="blog.js"></script>
     </head>
     <body>
-        <h1>{{"Hello " + "Angular!"}}
+        <div ng-controller="BoardController as board">
+            <h1>{{board.page.title}}</h1>
+            <h2>{{board.page.description}}</h2>
+        </div>
     </body>
 </html>
