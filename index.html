@@ -10,14 +10,16 @@
         <div id="wrapper">
             <div id="main_header" ng-include="'header.html'">
             </div>
-            <div ng-controller="BoardController as board">
-                <h1>{{board.route}}</h1>
-                <ul>
-                    <li ng-repeat="page in board.pages">
-                        <h1>{{page.title}}</h1>
-                        <h2>{{page.description}}</h2>
-                    </li>
-                </ul>
+            <div id="main_content">
+                <div ng-controller="BoardController as board">
+                    <h1>{{board.route}}</h1>
+                    <ul>
+                        <li ng-repeat="page in board.pages">
+                            <h1>{{page.title}}</h1>
+                            <h2>{{page.description}}</h2>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div id="main_footer" ng-include="'footer.html'">
             </div>

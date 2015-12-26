@@ -4,8 +4,8 @@ body {
 }
 
 #wrapper {
-    min-height:100%;
-    position:relative;
+    min-height: 100%;
+    position: relative;
 }
 
 #main_header {
@@ -15,11 +15,15 @@ body {
     color: #ffffff;
 }
 
+#main_content {
+    padding-bottom: 30px;
+}
+
 #main_footer {
     width: auto;
     height: 30px;
     color: #aaaaaa;
-    position:absolute;
-    bottom:0;
-    left:0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
