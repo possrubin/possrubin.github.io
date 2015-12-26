@@ -4,8 +4,11 @@
         <script type="text/javascript" src="angular.js"></script>
         <script type="text/javascript" src="angular-route.js"></script>
         <script type="text/javascript" src="blog.js"></script>
+        <link rel="stylesheet" type="text/css" href="default.css" />
     </head>
     <body>
+        <div id="main_header" ng-include="'header.html'">
+        </div>
         <div ng-controller="BoardController as board">
             <h1>{{board.route}}</h1>
             <ul>
