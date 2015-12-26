@@ -1,10 +1,11 @@
 (function() {
-    var app = angular.module('blog', ['ngRoute']);
+    var app = angular.module('app', ['ngRoute']);
     app.config(function($routeProvider) {
         $routeProvider.
-        when('/blog/:boardId', {
+        when('/blog/:filename', {
             templateUrl: "blogdesc.html",
-            controller: 'BlogController'
+            controller: 'BlogController',
+            controllerAs: 'blogdesc'
         }).
         otherwise({
             redirectTo: '/'
@@ -18,10 +19,7 @@
     });
   
     app.controller('BlogController', function($http, $routeParams) {
-        this.route = $routeParams.boardId;
-        $http.get('blogdata.json').success(function(blogdata) {
-            this.page = blogdata[parseInt(this.route)];
-        }); 
+        this.filename = $routeParams.filename;
     });
 })();
 

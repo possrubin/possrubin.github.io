@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="blog">
+<html ng-app="app">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="text/javascript" src="angular.js"></script>
@@ -12,6 +12,7 @@
             <div id="main_header" ng-include="'header.html'">
             </div>
             <div id="main_content">
+                <div ng-view></div>
                 <div ng-controller="BoardController as board">
                     <ul>
                         <li ng-repeat="page in board.pages">
