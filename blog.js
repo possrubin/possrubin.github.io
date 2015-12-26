@@ -12,6 +12,7 @@
     });
 
     app.controller('BoardController', function($scope, $http) {
+        this.test = "test1";
         $http.get('blogdata.json').success(function(blogdata) {
             $scope.pages = blogdata;
             $scope.test = "test!!";
