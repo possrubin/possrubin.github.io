@@ -16,7 +16,7 @@
                 <div ng-controller="BoardController as board">
                     <ul>
                         <li ng-repeat="page in board.pages">
-                            <a ng-href="{{page.file}}">
+                            <a ng-href="index#/blog/{{page.file}}">
                                 <h1>{{page.title}}</h1>
                             </a>
                         </li>
