@@ -1,10 +1,15 @@
-[
+
+]
 {
-    "file":"blog.write-blog-first",
-    "title":"나의 블로그를 github에 탑재하다"
+"file":"blog.write-blog-first",
+"title":"나의 블로그를 github에 탑재하다"
 },
 {
-    "file":"blog.write-blog-second",
-    "title":"This is Second Blog!"
+"file":"blog.write-blog-second",
+"title":"hahahahah"
 },
+{
+"file":"life.opportunity-makes-the-thief",
+"title":"견물생심 - 기회가 도둑을 만든다"
+}
 ]
