@@ -20,10 +20,12 @@
   
     app.controller('BlogController', function($http, $routeParams) {
         var pathes = $routeParams.filename.split('.');
-        alert(pathes[0]);
         var filepath = "";
         for(var i=0; i<pathes.length; i++) {
-            filepath.concat(pathes[i] + "/");
+            filepath += pathes[i];
+            if(i != pathes.length-1) {
+                filepath += "/";
+            }
         } 
         this.filename = filepath;
         alert(filepath);
