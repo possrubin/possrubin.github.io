@@ -1,10 +1,10 @@
 [
 {
-    "title":"This is First Blog!",
-    "description":"Nothing to write"
+    "file":"blog.write-blog-first",
+    "title":"This is First Blog!"
 },
 {
-    "title":"This is Second Blog!",
-    "description":"Oh Second~"
+    "file":"blog.write-blog-second",
+    "title":"This is Second Blog!"
 }
 ]

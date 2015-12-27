@@ -28,7 +28,6 @@
             }
         } 
         this.filename = filepath;
-        alert(filepath);
     });
 })();
 
