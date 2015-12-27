@@ -1,8 +1,7 @@
 #!/bin/bash
 
 rm blogdata.json
-echo "" > blogdata.json
-echo "]" >> blogdata.json
+echo "]" > blogdata.json
 for f in *; do
     if [[ -d $f ]]; then
         for entry in $f/*; do
