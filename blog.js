@@ -25,7 +25,7 @@
             filepath.concat(pathes[i] + "/");
         } 
         this.filename = filepath;
-        alert(filename);
+        alert(filepath);
     });
 })();
 
