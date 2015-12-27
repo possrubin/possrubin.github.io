@@ -59,6 +59,11 @@ a:active {color:#00a8ec;}
     font-weight: bold;
 }
 
+#writedate {
+    margin: 15px 0;
+    color: #999999;
+}
+
 #description {
 
 }
