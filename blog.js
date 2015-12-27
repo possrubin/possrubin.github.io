@@ -19,7 +19,13 @@
     });
   
     app.controller('BlogController', function($http, $routeParams) {
-        this.filename = $routeParams.filename;
+        var pathes = $routeParams.filename.split('.');
+        var filepath = "";
+        for(int i=0; i<pathes.length; i++) {
+            filepath.concat(pathes[i] + "/");
+        } 
+        this.filename = filepath;
+        alert(filename);
     });
 })();
 
