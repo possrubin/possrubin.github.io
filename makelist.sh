@@ -12,7 +12,7 @@ for f in *; do
             convertedPath=${arr[0]}
             convertedPath=${convertedPath%?????}
             echo "\"file\":\"$convertedPath\"," >> blogdata.json
-            echo "\"writedate\":\"$writedate\"" >> blogdata.json
+            echo "\"writedate\":\"$writedate\"," >> blogdata.json
             echo "\"title\":\"$title\"" >> blogdata.json
             echo "}," >> blogdata.json
         done
