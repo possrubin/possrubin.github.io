@@ -1,17 +1,1 @@
-[
-{
-"file":"blog.make2",
-"writedate":"{{1451727334508 | date:'yyyy-MM-dd HH:mm:ss'}}",
-"title":"블로그 하나더 게시 테스트"
-},
-{
-"file":"blog.restart",
-"writedate":"{{1451726611268 | date:'yyyy-MM-dd HH:mm:ss'}}",
-"title":"블로그를 만들어보자!!"
-},
-{
-"file":"life.what-is-life",
-"writedate":"{{1451728327747 | date:'yyyy-MM-dd HH:mm:ss'}}",
-"title":"인생이란.."
-}
-]
+[{"file":"blog.make2","writedate":"1451733298670","title":"블로그 하나더 게시 테스트","tag":"null"},{"file":"blog.restart","writedate":"1451733567168","title":"블로그를 만들어보자!!","tag":"블로그"},{"file":"life.what-is-life","writedate":"1451733571491","title":"인생이란..","tag":"null"}]
