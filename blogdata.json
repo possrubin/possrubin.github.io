@@ -1,7 +1,7 @@
 [
 {
 "file":"blog.restart",
-"writedate":"1451726026749",
+"writedate":"{{1451726470516 | date:'medium'}}",
 "title":"블로그를 만들어보자!!"
 }
 ]
