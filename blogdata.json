@@ -1,7 +1,12 @@
 [
 {
+"file":"blog.make2",
+"writedate":"{{1451727334508 | date:'yyyy-MM-dd HH:mm:ss'}}",
+"title":"블로그 하나더 게시 테스트"
+},
+{
 "file":"blog.restart",
-"writedate":"{{1451726470516 | date:'medium'}}",
+"writedate":"{{1451726611268 | date:'yyyy-MM-dd HH:mm:ss'}}",
 "title":"블로그를 만들어보자!!"
 }
 ]
