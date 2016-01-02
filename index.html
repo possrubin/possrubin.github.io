@@ -13,6 +13,8 @@
             </div>
             <div id="main_content">
                 <ng-view></ng-view>
+            </div>
+            <div id="main_list">
                 <div ng-controller="BoardController as board">
                     <ul>
                         <li ng-repeat="page in board.pages">
