@@ -34,13 +34,13 @@ a:active {color:#00a8ec;}
 
 #main_content {
     padding-bottom: 30px;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     max-width: 800px;
 }
 
 #content_menu {
-    width: 100px;
+    width: 150px;
     float: left; 
 }
 
@@ -84,6 +84,7 @@ a:active {color:#00a8ec;}
 .nav li {
     color: black;    
     height: 50px;
+    line-height: 50px;
     vertical-align: middle;
     padding-left: 10px;
 }
