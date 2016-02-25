@@ -82,10 +82,11 @@ a:active {color:#00a8ec;}
 }
 
 .nav li {
-    
+    color: black;    
 }
 
 .nav li:hover {
     background-color: #00a8ec;
     cursor: pointer;
+    color: white;
 }
