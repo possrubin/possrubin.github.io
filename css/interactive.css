@@ -23,10 +23,11 @@ a:active {color:#00a8ec;}
 }
 
 #main_header {
-    width: auto;
+    width: 100%;
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
+    text-align: center;
     background-color: #00a8ec;
     color: #ffffff;
 }
@@ -40,9 +41,7 @@ a:active {color:#00a8ec;}
 
 #content_menu {
     width: 100px;
-    height: auto;
     float: left; 
-    background-color: #ff0000;
 }
 
 #content_desc {
@@ -88,4 +87,5 @@ a:active {color:#00a8ec;}
 
 .nav li:hover {
     background-color: #00a8ec;
+    cursor: pointer;
 }
