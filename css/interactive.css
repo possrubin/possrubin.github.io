@@ -38,6 +38,17 @@ a:active {color:#00a8ec;}
     max-width: 800px;
 }
 
+#content_menu {
+    width: 100px;
+    height: auto;
+    float: left; 
+    background-color: #ff0000;
+}
+
+#content_desc {
+    margin: 0 auto;
+}
+
 #main_list {
 }
 
