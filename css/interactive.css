@@ -83,6 +83,9 @@ a:active {color:#00a8ec;}
 
 .nav li {
     color: black;    
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 .nav li:hover {
