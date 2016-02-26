@@ -16,20 +16,20 @@
 
     var titles = [
         {
-            title: '호호'
+            title: '네비게이션'
         },
         {
-            title: '하하'
+            title: '버튼'
         },
         {   
-            title: '히히힣'
+            title: '이미지'
         } 
     ];
 
 
     var pages = [
         {
-            title: '헬로',
+            title: '네비게이션',
             description: 'ㅇㅇㅇㅇㅇ'
         },
         {
