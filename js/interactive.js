@@ -1,17 +1,23 @@
 (function() {
     var app = angular.module('app', []);
-    app.controller('MenuController', function() {
-        this.menu = 1;
+    app.controller('PageController', function() {
+        this.page = 1;
         this.contents = pages;
 
-        this.setMenu = function(value) {
-            this.menu = value;
+        this.setPage = function(value) {
+            this.page = value;
         }
 
-        this.isMenu = function(value) {
-            return this.menu === value;
+        this.isPage = function(value) {
+            return this.page === value;
         } 
     });
+
+    var menus = [
+        {
+            title: '호호'
+        }
+    ];
 
 
     var pages = [
