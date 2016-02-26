@@ -103,5 +103,9 @@ a:active {color:#00a8ec;}
 
 .content.title {
     font-size: 30px;
-    margin: 10px;
+    padding: 10px;
+}
+
+.content.description {
+
 }
