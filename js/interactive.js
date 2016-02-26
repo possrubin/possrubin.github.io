@@ -11,7 +11,7 @@
         this.isMenu = function(value) {
             return this.menu === value;
         } 
-    )};
+    });
 
 
     var pages = [
