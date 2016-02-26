@@ -11,10 +11,15 @@
         <div id="wrapper">
             <div id="main_header" ng-include="'header.html'">
             </div>
-            <div id="main_content">
+            <div id="main_content" ng-controller="MenuController as menu">
                 <div id="content_menu" ng-include="'menu.html'">
                 </div>
                 <div id="content_desc">
+                    <div ng-repeat="content in menu.contents">
+                        <div ng-show="menu.isMenu($index)">
+                            <div>{{content.title}}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="main_footer" ng-include="'footer.html'">

@@ -7,6 +7,7 @@ html, body {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
@@ -40,7 +41,7 @@ a:active {color:#00a8ec;}
 }
 
 #content_menu {
-    width: 150px;
+    width: 200px;
     float: left; 
 }
 
@@ -92,5 +93,10 @@ a:active {color:#00a8ec;}
 .nav li:hover {
     background-color: #00a8ec;
     cursor: pointer;
+    color: white;
+}
+
+.nav li:active {
+    background-color: #00a8ec;
     color: white;
 }
