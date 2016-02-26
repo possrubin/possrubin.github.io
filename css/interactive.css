@@ -47,6 +47,7 @@ a:active {color:#00a8ec;}
 
 #content_desc {
     margin: 0 auto;
+    float: left;
 }
 
 #main_list {
@@ -107,5 +108,5 @@ a:active {color:#00a8ec;}
 }
 
 .content.description {
-
+    padding: 10px;
 }
