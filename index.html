@@ -13,9 +13,9 @@
             </div>
             <div id="main_content" ng-controller="PageController as page">
                 <div id="content_menu">
-                    <ul class="nav" ng-init="page.setPage(1)" ng-repeat="menu in page.menus">
-                        <a href ng-click="page.setPage(1)">
-                        <li ng-class="{active:page.isPage(1)}">{{menu.title}}</li></a>
+                    <ul class="nav" ng-init="page.setPage(1)">
+                        <a href ng-click="page.setPage({{$index+1}})" ng-repeat="menu in page.menus">
+                        <li ng-class="{active:page.isPage({{$index+1}})}">{{menu.title}}</li></a>
                     </ul>
                 </div>
                 <div id="content_desc">
