@@ -16,7 +16,7 @@
                 </div>
                 <div id="content_desc">
                     <div ng-repeat="content in menu.contents">
-                        <div ng-show="menu.isMenu({{$index}})">
+                        <div ng-show="menu.isMenu({{$index+1}})">
                             <div>{{content.title}}</div>
                         </div>
                     </div>
