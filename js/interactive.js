@@ -17,7 +17,13 @@
     var titles = [
         {
             title: '호호'
-        }
+        },
+        {
+            title: '하하'
+        },
+        {   
+            title: '히히힣'
+        } 
     ];
 
 

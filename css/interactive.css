@@ -96,7 +96,7 @@ a:active {color:#00a8ec;}
     color: white;
 }
 
-.nav li:active {
+.nav li.active {
     background-color: #00a8ec;
     color: white;
 }
