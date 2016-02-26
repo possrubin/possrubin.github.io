@@ -6,7 +6,9 @@
         this.menus = titles;
 
         this.setPage = function(value) {
-            this.page = value;
+            if(Number.isInteger(value)) {
+                this.page = value;
+            }
         }
 
         this.isPage = function(value) {
