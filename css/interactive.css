@@ -101,6 +101,6 @@ a:active {color:#00a8ec;}
     color: white;
 }
 
-.content .title {
+.content.title {
     font-size: 30px;
 }
