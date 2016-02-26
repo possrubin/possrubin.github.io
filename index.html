@@ -21,8 +21,8 @@
                 <div id="content_desc">
                     <div ng-repeat="content in page.contents">
                         <div ng-show="page.isPage({{$index+1}})">
-                            <div>{{content.title}}</div>
-                            <div>{{content.description}}</div>
+                            <div class="content title">{{content.title}}</div>
+                            <div class="content description">{{content.description}}</div>
                         </div>
                     </div>
                 </div>
