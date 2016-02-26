@@ -3,6 +3,7 @@
     app.controller('PageController', function() {
         this.page = 1;
         this.contents = pages;
+        this.menus = titles;
 
         this.setPage = function(value) {
             this.page = value;
@@ -13,7 +14,7 @@
         } 
     });
 
-    var menus = [
+    var titles = [
         {
             title: '호호'
         }
