@@ -17,11 +17,11 @@
     var pages = [
         {
             title: '헬로',
-            description: ''
+            description: 'ㅇㅇㅇㅇㅇ'
         },
         {
             title: '테스트',
-            description: ''
+            description: 'dfjlkasdfajlkdljks'
         },
         {
             title: '하이',
