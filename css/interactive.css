@@ -88,6 +88,8 @@ a:active {color:#00a8ec;}
     line-height: 50px;
     vertical-align: middle;
     padding-left: 10px;
+    border-left: 5px solid #00a8ec;
+    color: #00a8ec;
 }
 
 .nav li {
