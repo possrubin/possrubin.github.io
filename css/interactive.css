@@ -87,7 +87,7 @@ a:active {color:#00a8ec;}
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
-    text-align: center;
+    padding-left: 10px;
 }
 
 .nav li {

@@ -1,26 +1,52 @@
 (function() {
     var app = angular.module('app', []);
     app.controller('PageController', function() {
-        this.page = 1;
-        this.contents = android_contents;
-        this.menus = android_titles;
-
-        this.setPage = function(value) {
-            this.page = value;
+        this.propage = 1;
+        this.andpage = 0;
+        this.promenus = profile_menus;
+        this.procontents = profile_contents;
+        this.andmenus = android_menus;
+        this.andcontents = android_contents;
+        
+        this.setProPage = function(value) {
+            this.propage = value;
+            this.andpage = 0;
         }
 
-        this.isPage = function(value) {
-            return this.page === value;
+        this.isProPage = function(value) {
+            return this.propage === value;
+        }
+
+        this.setAndPage = function(value) {
+            this.propage = 0;
+            this.andpage = value;
+        }
+
+        this.isAndPage = function(value) {
+            return this.andpage === value;
         } 
     });
 
-    var profile_titles = [
+    var profile_menus = [
+        {
+            title: '프로필'
+        },
+        {
+            title: '공란'
+        }
     ];
 
     var profile_contents = [
+        {
+            title: '프로필',
+            description: '하하하'
+        },
+            title: '공란',
+            description: '흐흥음'
+        }
     ];
 
-    var android_titles = [
+    var android_menus = [
         {
             title: '네비게이션'
         },
