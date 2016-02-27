@@ -83,6 +83,13 @@ a:active {color:#00a8ec;}
     
 }
 
+.navheader {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
 .nav li {
     color: black;    
     height: 50px;

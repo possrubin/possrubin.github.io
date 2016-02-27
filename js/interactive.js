@@ -2,8 +2,8 @@
     var app = angular.module('app', []);
     app.controller('PageController', function() {
         this.page = 1;
-        this.contents = pages;
-        this.menus = titles;
+        this.contents = android_contents;
+        this.menus = android_titles;
 
         this.setPage = function(value) {
             this.page = value;
@@ -14,7 +14,13 @@
         } 
     });
 
-    var titles = [
+    var profile_titles = [
+    ];
+
+    var profile_contents = [
+    ];
+
+    var android_titles = [
         {
             title: '네비게이션'
         },
@@ -27,7 +33,7 @@
     ];
 
 
-    var pages = [
+    var android_contents = [
         {
             title: '네비게이션',
             description: 'ㅇㅇㅇㅇㅇ'
